@@ -1,0 +1,456 @@
+# Reading D:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile F:/Projs/JETSYS_1/FPGA/sim/testbench.v 
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module jet_header
+# -- Compiling module jet_sys_top
+# -- Compiling module spi_detect
+# 
+# Top level modules:
+# 	jet_sys_top
+# vsim -novopt work.testbench 
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.testbench
+# Loading work.testbench
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_sys_top
+# Loading work.jet_sys_top
+# ** Error: (vsim-3033) ../src/jet_sys_top.v(31): Instantiation of 'IBUFG' failed. The design unit was not found.
+# 
+#         Region: /testbench/u1_net
+#         Searched libraries:
+#             F:/Projs/JETSYS_1/FPGA/sim/work
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.spi_detect
+# Loading work.spi_detect
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_header
+# Loading work.jet_header
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./run.do PAUSED at line 8
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module IBUFG
+# 
+# Top level modules:
+# 	IBUFG
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module jet_header
+# -- Compiling module jet_sys_top
+# -- Compiling module spi_detect
+# 
+# Top level modules:
+# 	jet_sys_top
+# vsim -novopt work.testbench 
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.testbench
+# Loading work.testbench
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_sys_top
+# Loading work.jet_sys_top
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.IBUFG
+# Loading work.IBUFG
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.spi_detect
+# Loading work.spi_detect
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_header
+# Loading work.jet_header
+# ** Warning: (vsim-3017) ./testbench.v(98): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /testbench/u1_net
+# ** Warning: (vsim-3722) ./testbench.v(98): [TFMPC] - Missing connection for port 'fpga_int_out'.
+# 
+# ** Warning: (vsim-3017) ../src/jet_sys_top.v(79): [TFMPC] - Too few port connections. Expected 14, found 13.
+# 
+#         Region: /testbench/u1_net/u1_net
+# ** Warning: (vsim-3722) ../src/jet_sys_top.v(79): [TFMPC] - Missing connection for port 'fpga_int_out'.
+# 
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: huang  Hostname: HUANG-PC  ProcessID: 4848
+# 
+#           Attempting to use alternate WLF file "./wlftie99sc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftie99sc
+# 
+# Break in Module testbench at ./testbench.v line 84
+# Simulation Breakpoint: Break in Module testbench at ./testbench.v line 84
+# MACRO ./run.do PAUSED at line 13
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module IBUFG
+# 
+# Top level modules:
+# 	IBUFG
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module jet_header
+# -- Compiling module jet_sys_top
+# -- Compiling module spi_detect
+# -- Compiling module sram_ctrl
+# 
+# Top level modules:
+# 	jet_sys_top
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module sram_16384x16
+# 
+# Top level modules:
+# 	sram_16384x16
+# vsim -novopt work.testbench 
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.testbench
+# Loading work.testbench
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_sys_top
+# Loading work.jet_sys_top
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.IBUFG
+# Loading work.IBUFG
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.spi_detect
+# Loading work.spi_detect
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_header
+# Loading work.jet_header
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.sram_ctrl
+# Loading work.sram_ctrl
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.sram_16384x16
+# Loading work.sram_16384x16
+# ** Error: (vsim-3033) ../ipcore_dir/sram_16384x16.v(184): Instantiation of 'BLK_MEM_GEN_V6_3' failed. The design unit was not found.
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+#         Searched libraries:
+#             F:/Projs/JETSYS_1/FPGA/sim/work
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./run.do PAUSED at line 10
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module STATE_LOGIC_V6_3
+# -- Compiling module beh_vlog_muxf7_V6_3
+# -- Compiling module beh_vlog_ff_clr_V6_3
+# -- Compiling module beh_vlog_ff_pre_V6_3
+# -- Compiling module beh_vlog_ff_ce_clr_V6_3
+# -- Compiling module write_netlist_V6_3
+# -- Compiling module read_netlist_V6_3
+# -- Compiling module blk_mem_axi_write_wrapper_beh_V6_3
+# -- Compiling module blk_mem_axi_read_wrapper_beh_V6_3
+# -- Compiling module blk_mem_axi_regs_fwd_v6_3
+# -- Compiling module BLK_MEM_GEN_V6_3_output_stage
+# -- Compiling module BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# -- Compiling module BLK_MEM_GEN_V6_3_mem_module
+# -- Compiling module BLK_MEM_GEN_V6_3
+# -- Compiling module IBUFG
+# 
+# Top level modules:
+# 	BLK_MEM_GEN_V6_3
+# 	IBUFG
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module jet_header
+# -- Compiling module jet_sys_top
+# -- Compiling module spi_detect
+# -- Compiling module sram_ctrl
+# 
+# Top level modules:
+# 	jet_sys_top
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module sram_16384x16
+# 
+# Top level modules:
+# 	sram_16384x16
+# vsim -novopt work.testbench 
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.testbench
+# Loading work.testbench
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_sys_top
+# Loading work.jet_sys_top
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.IBUFG
+# Loading work.IBUFG
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.spi_detect
+# Loading work.spi_detect
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_header
+# Loading work.jet_header
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.sram_ctrl
+# Loading work.sram_ctrl
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.sram_16384x16
+# Loading work.sram_16384x16
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3
+# Loading work.BLK_MEM_GEN_V6_3
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_mem_module
+# Loading work.BLK_MEM_GEN_V6_3_mem_module
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_output_stage
+# Loading work.BLK_MEM_GEN_V6_3_output_stage
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# Loading work.BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# ** Warning: (vsim-3017) ./testbench.v(98): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /testbench/u1_net
+# ** Warning: (vsim-3722) ./testbench.v(98): [TFMPC] - Missing connection for port 'fpga_int_out'.
+# 
+# ** Warning: (vsim-3017) ../src/jet_sys_top.v(75): [TFMPC] - Too few port connections. Expected 14, found 13.
+# 
+#         Region: /testbench/u1_net/u1_net
+# ** Warning: (vsim-3722) ../src/jet_sys_top.v(75): [TFMPC] - Missing connection for port 'fpga_int_out'.
+# 
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'addra'. The port definition is at: ../ipcore_dir/sram_16384x16.v(42).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'web'. The port definition is at: ../ipcore_dir/sram_16384x16.v(46).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'addrb'. The port definition is at: ../ipcore_dir/sram_16384x16.v(47).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'dinb'. The port definition is at: ../ipcore_dir/sram_16384x16.v(48).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: huang  Hostname: HUANG-PC  ProcessID: 4848
+# 
+#           Attempting to use alternate WLF file "./wlft7hbyez".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft7hbyez
+# 
+#  Block Memory Generator CORE Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator CORE Generator module testbench.u1_net.u3_sram_ctrl.sram.inst.native_mem_module.blk_mem_gen_v6_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Break in Module testbench at ./testbench.v line 84
+# Simulation Breakpoint: Break in Module testbench at ./testbench.v line 84
+# MACRO ./run.do PAUSED at line 14
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module STATE_LOGIC_V6_3
+# -- Compiling module beh_vlog_muxf7_V6_3
+# -- Compiling module beh_vlog_ff_clr_V6_3
+# -- Compiling module beh_vlog_ff_pre_V6_3
+# -- Compiling module beh_vlog_ff_ce_clr_V6_3
+# -- Compiling module write_netlist_V6_3
+# -- Compiling module read_netlist_V6_3
+# -- Compiling module blk_mem_axi_write_wrapper_beh_V6_3
+# -- Compiling module blk_mem_axi_read_wrapper_beh_V6_3
+# -- Compiling module blk_mem_axi_regs_fwd_v6_3
+# -- Compiling module BLK_MEM_GEN_V6_3_output_stage
+# -- Compiling module BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# -- Compiling module BLK_MEM_GEN_V6_3_mem_module
+# -- Compiling module BLK_MEM_GEN_V6_3
+# -- Compiling module IBUFG
+# 
+# Top level modules:
+# 	BLK_MEM_GEN_V6_3
+# 	IBUFG
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module jet_header
+# -- Compiling module jet_sys_top
+# -- Compiling module spi_detect
+# -- Compiling module sram_ctrl
+# 
+# Top level modules:
+# 	jet_sys_top
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module sram_16384x16
+# 
+# Top level modules:
+# 	sram_16384x16
+# vsim -novopt work.testbench 
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.testbench
+# Loading work.testbench
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_sys_top
+# Loading work.jet_sys_top
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.IBUFG
+# Loading work.IBUFG
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.spi_detect
+# Loading work.spi_detect
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_header
+# Loading work.jet_header
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.sram_ctrl
+# Loading work.sram_ctrl
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.sram_16384x16
+# Loading work.sram_16384x16
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3
+# Loading work.BLK_MEM_GEN_V6_3
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_mem_module
+# Loading work.BLK_MEM_GEN_V6_3_mem_module
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_output_stage
+# Loading work.BLK_MEM_GEN_V6_3_output_stage
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# Loading work.BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# ** Warning: (vsim-3017) ./testbench.v(98): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /testbench/u1_net
+# ** Warning: (vsim-3722) ./testbench.v(98): [TFMPC] - Missing connection for port 'fpga_int_out'.
+# 
+# ** Warning: (vsim-3017) ../src/jet_sys_top.v(75): [TFMPC] - Too few port connections. Expected 14, found 13.
+# 
+#         Region: /testbench/u1_net/u1_net
+# ** Warning: (vsim-3722) ../src/jet_sys_top.v(75): [TFMPC] - Missing connection for port 'fpga_int_out'.
+# 
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'addra'. The port definition is at: ../ipcore_dir/sram_16384x16.v(42).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'web'. The port definition is at: ../ipcore_dir/sram_16384x16.v(46).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'addrb'. The port definition is at: ../ipcore_dir/sram_16384x16.v(47).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'dinb'. The port definition is at: ../ipcore_dir/sram_16384x16.v(48).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: huang  Hostname: HUANG-PC  ProcessID: 4848
+# 
+#           Attempting to use alternate WLF file "./wlft1rkf86".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft1rkf86
+# 
+#  Block Memory Generator CORE Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator CORE Generator module testbench.u1_net.u3_sram_ctrl.sram.inst.native_mem_module.blk_mem_gen_v6_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Break in Module testbench at ./testbench.v line 84
+# Simulation Breakpoint: Break in Module testbench at ./testbench.v line 84
+# MACRO ./run.do PAUSED at line 14
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module STATE_LOGIC_V6_3
+# -- Compiling module beh_vlog_muxf7_V6_3
+# -- Compiling module beh_vlog_ff_clr_V6_3
+# -- Compiling module beh_vlog_ff_pre_V6_3
+# -- Compiling module beh_vlog_ff_ce_clr_V6_3
+# -- Compiling module write_netlist_V6_3
+# -- Compiling module read_netlist_V6_3
+# -- Compiling module blk_mem_axi_write_wrapper_beh_V6_3
+# -- Compiling module blk_mem_axi_read_wrapper_beh_V6_3
+# -- Compiling module blk_mem_axi_regs_fwd_v6_3
+# -- Compiling module BLK_MEM_GEN_V6_3_output_stage
+# -- Compiling module BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# -- Compiling module BLK_MEM_GEN_V6_3_mem_module
+# -- Compiling module BLK_MEM_GEN_V6_3
+# -- Compiling module IBUFG
+# 
+# Top level modules:
+# 	BLK_MEM_GEN_V6_3
+# 	IBUFG
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module jet_header
+# -- Compiling module jet_sys_top
+# -- Compiling module spi_detect
+# -- Compiling module sram_ctrl
+# 
+# Top level modules:
+# 	jet_sys_top
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module sram_16384x16
+# 
+# Top level modules:
+# 	sram_16384x16
+# vsim -novopt work.testbench 
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.testbench
+# Loading work.testbench
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_sys_top
+# Loading work.jet_sys_top
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.IBUFG
+# Loading work.IBUFG
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.spi_detect
+# Loading work.spi_detect
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.jet_header
+# Loading work.jet_header
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.sram_ctrl
+# Loading work.sram_ctrl
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.sram_16384x16
+# Loading work.sram_16384x16
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3
+# Loading work.BLK_MEM_GEN_V6_3
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_mem_module
+# Loading work.BLK_MEM_GEN_V6_3_mem_module
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_output_stage
+# Loading work.BLK_MEM_GEN_V6_3_output_stage
+# Refreshing F:/Projs/JETSYS_1/FPGA/sim/work.BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# Loading work.BLK_MEM_GEN_V6_3_softecc_output_reg_stage
+# ** Warning: (vsim-3017) ./testbench.v(98): [TFMPC] - Too few port connections. Expected 8, found 7.
+# 
+#         Region: /testbench/u1_net
+# ** Warning: (vsim-3722) ./testbench.v(98): [TFMPC] - Missing connection for port 'fpga_int_out'.
+# 
+# ** Warning: (vsim-3017) ../src/jet_sys_top.v(75): [TFMPC] - Too few port connections. Expected 14, found 13.
+# 
+#         Region: /testbench/u1_net/u1_net
+# ** Warning: (vsim-3722) ../src/jet_sys_top.v(75): [TFMPC] - Missing connection for port 'fpga_int_out'.
+# 
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'addra'. The port definition is at: ../ipcore_dir/sram_16384x16.v(42).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'web'. The port definition is at: ../ipcore_dir/sram_16384x16.v(46).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (14 or 14) does not match connection size (16) for port 'addrb'. The port definition is at: ../ipcore_dir/sram_16384x16.v(47).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-3015) ../src/sram_ctrl.v(41): [PCDPC] - Port size (16 or 16) does not match connection size (32) for port 'dinb'. The port definition is at: ../ipcore_dir/sram_16384x16.v(48).
+# 
+#         Region: /testbench/u1_net/u3_sram_ctrl/sram
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: huang  Hostname: HUANG-PC  ProcessID: 4848
+# 
+#           Attempting to use alternate WLF file "./wlfty8i0aa".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfty8i0aa
+# 
+#  Block Memory Generator CORE Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator CORE Generator module testbench.u1_net.u3_sram_ctrl.sram.inst.native_mem_module.blk_mem_gen_v6_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Break in Module testbench at ./testbench.v line 84
+# Simulation Breakpoint: Break in Module testbench at ./testbench.v line 84
+# MACRO ./run.do PAUSED at line 14
